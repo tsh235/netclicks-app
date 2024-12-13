@@ -1,0 +1,28 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+.card__poster {
+  max-height: 376px;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 5px;
+}
+.card__title {
+  margin-bottom: 4px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.card__title span {
+  font-weight: 700;
+}
+.card__style {
+  color: #868686;
+  font-size: 16px;
+}
+.card__rating {
+  color: #04a31e;
+  font-size: 16px;
+  font-weight: 700;
+}

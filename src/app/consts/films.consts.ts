@@ -1,0 +1,58 @@
+import { Film } from '../models/film.model';
+
+export const FILMS: Film[] = [
+  {
+    id: 1,
+    title: 'Марсианин 1',
+    titleEng: 'The Martian 2015',
+    rating: 7.8,
+    categoty: 'Фантастика, приключения',
+    image: './img/poster.jpeg',
+    link: './film.html',
+  },
+  {
+    id: 2,
+    title: 'Марсианин 2',
+    titleEng: 'The Martian 2015',
+    rating: 7.8,
+    categoty: 'Фантастика, приключения',
+    image: './img/poster.jpeg',
+    link: './film.html',
+  },
+  {
+    id: 3,
+    title: 'Марсианин 3',
+    titleEng: 'The Martian 2015',
+    rating: 7.8,
+    categoty: 'Фантастика, приключения',
+    image: './img/poster.jpeg',
+    link: './film.html',
+  },
+  {
+    id: 4,
+    title: 'Марсианин 4',
+    titleEng: 'The Martian 2015',
+    rating: 7.8,
+    categoty: 'Фантастика, приключения',
+    image: './img/poster.jpeg',
+    link: './film.html',
+  },
+  {
+    id: 5,
+    title: 'Марсианин 5',
+    titleEng: 'The Martian 2015',
+    rating: 7.8,
+    categoty: 'Фантастика, приключения',
+    image: './img/poster.jpeg',
+    link: './film.html',
+  },
+  {
+    id: 6,
+    title: 'Марсианин 6',
+    titleEng: 'The Martian 2015',
+    rating: 7.8,
+    categoty: 'Фантастика, приключения',
+    image: './img/poster.jpeg',
+    link: './film.html',
+  },
+];
