@@ -1,0 +1,10 @@
+.not-found-link {
+  color: #ff4949;
+  padding-bottom: 1px;
+  outline: none;
+  transition: .3s;
+}
+.not-found-link:hover {
+  color: #000;
+  border-bottom: 1px dashed #000;
+}

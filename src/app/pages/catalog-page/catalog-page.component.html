@@ -1,0 +1,15 @@
+<section class="content">
+  <div class="container content__container">
+    <div class="content-wrapper">
+      <h2 class="content-wrapper__title">Результаты поиска</h2>
+
+      <ul class="cards">
+        @for (film of films; track film.id) {
+          <app-card [film]="film"></app-card>
+        }
+      </ul>
+    </div>
+
+    <app-sidebar></app-sidebar>
+  </div>
+</section>

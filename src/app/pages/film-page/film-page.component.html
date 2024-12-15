@@ -1,0 +1,27 @@
+<section class="content">
+  <div class="container content__container">
+    <div class="content-wrapper content-wrapper_film">
+
+      <div class="film">
+      @if (film) {
+          <img class="film__poster" [src]="film.image" [alt]="film.title" width="460" height="655">
+          <div class="film__content">
+            <div class="film__head">
+              <h2 class="film__title"><span>{{ film.title }}</span>, {{ film.titleEng }}</h2>
+              <p class="film__style">{{ film.categoty }}</p>
+              <p class="film__rating">{{ film.rating }}</p>
+            </div>
+
+            <div class="film__description">
+              <p class="film__description-text">{{ film.description }}</p>
+            </div>
+
+            <button class="film__btn">Смотреть</button>
+          </div>
+        }
+      </div>
+    </div>
+
+    <app-sidebar></app-sidebar>
+  </div>
+</section>

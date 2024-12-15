@@ -1,8 +1,14 @@
 <div class="search-block">
   <div class="container">
     <div class="search">
-      <input class="search__input" type="text" placeholder="Что хотите посмотреть?">
-      <button class="search__btn">
+      <input
+        class="search__input"
+        type="text"
+        placeholder="Что хотите посмотреть?"
+        [value]="searchString"
+        (input)="updateValue($event)"
+      >
+      <button class="search__btn" (click)="updateSearch($event)">
         <img class="search__btn-img" src="./img/search.svg" alt="иконка поиска">
         <span class="search__btn-text">Найти</span>
       </button>

@@ -6,4 +6,5 @@ export interface Film {
   categoty: string;
   image: string;
   link: string;
+  description?: string
 }
